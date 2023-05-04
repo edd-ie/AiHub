@@ -1,10 +1,18 @@
 import './about.css'
+import { Link } from "react-router-dom";
 
 export default function About() {
     return(
-    <div>
-        <h1>AI-HUB</h1>
-        <div>
+    <div id="about">
+        <Link to="/">
+            <div id='about-img'>
+                <span className="material-symbols-sharp">
+                    home
+                </span>
+            </div>
+        </Link>
+        <h1 id='aheader'>AI-HUB</h1>
+        <div id='about-content'>
             <h2>why we founded our company</h2>
             <p>
             Our company  was founded with the goal of creating and advancing AI in a way that benefits humanity as a whole and push us 
