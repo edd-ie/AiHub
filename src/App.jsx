@@ -1,5 +1,5 @@
 import './App.css';
-import {createBrowserRouter,RouterProvider , BrowserRouter, Route, Routes } from "react-router-dom";
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import Home from './components/Home.jsx'
 import Chat from './components/Chat.jsx'
 import Art from './components/Art.jsx'
