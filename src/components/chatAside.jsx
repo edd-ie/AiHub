@@ -159,19 +159,19 @@ export default function Aside(){
                     </ul>
                     <ul className="profiles">
                         <li>
-                            <img src="./images/icon.jpg" alt="show"/>
+                            <img src={icon} alt="show"/>
                             <h4>AI_chat</h4>
                         </li> 
                         <li>
-                            <img src="./images/icon.jpg" alt="show"/>
+                            <img src={dp1} alt="show"/>
                             <h4>Eddie</h4>
                         </li> 
                         <li>
-                            <img src="./images/icon.jpg" alt="show"/>
+                            <img src={dp2} alt="show"/>
                             <h4>Laura</h4>
                         </li> 
                         <li>
-                            <img src="./images/Camera man cry.png" alt="show"/>
+                            <img src={dp3} alt="show"/>
                             <h4>Daniel</h4>
                         </li> 
                     </ul>
